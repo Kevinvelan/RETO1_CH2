@@ -8,13 +8,25 @@ public class Crystal : MonoBehaviour
     [SerializeField] private AudioClip sonido;
     [SerializeField] private GameObject particulas;
 
-    public void CogerCristal()
+    
+   
+    private void OnTriggerEnter(Collider other)
+
     {
-        if (audioSource != null && sonido != null)
+        if (other.gameObject.CompareTag("Player"))
+
+        {
             audioSource.PlayOneShot(sonido);
 
-        Instantiate(particulas, transform.position, transform.rotation);
+            Instantiate(particulas, transform.position, transform.rotation);
 
-        Destroy(gameObject);
+            Destroy(gameObject);
+
+        }
+
+
     }
+
+
 }
+

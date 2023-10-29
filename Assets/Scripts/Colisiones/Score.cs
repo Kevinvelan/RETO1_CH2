@@ -13,9 +13,11 @@ public class Score : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Puntos"))
         {
-            Destroy(other.gameObject);
+           
             Puntaje++;
             scoreT.text = "Score: " + Puntaje;
+            
+
         }
     }
 
