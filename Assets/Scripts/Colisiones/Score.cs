@@ -7,6 +7,8 @@ public class Score : MonoBehaviour
 {
     public int Puntaje = 0;
     public TMP_Text scoreT;
+    public GameObject caliz;
+    public GameObject puerta;
 
 
     private void OnTriggerEnter(Collider other)
@@ -15,10 +17,27 @@ public class Score : MonoBehaviour
         {
            
             Puntaje++;
-            scoreT.text = "Score: " + Puntaje;
-            
+            scoreT.text = " Score " + Puntaje;
+
 
         }
+
+        if ( Puntaje == 50 )
+
+        {
+            puerta.SetActive(false);
+
+        }
+
+        if (Puntaje == 100)
+
+        {
+            caliz.SetActive(true);
+
+        }
+
+
+
     }
 
 

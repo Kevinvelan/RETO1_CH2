@@ -7,6 +7,7 @@ TagManager:
   - Objeto
   - Puntos
   - Enemigo
+  - Caliz
   layers:
   - Default
   - TransparentFX
