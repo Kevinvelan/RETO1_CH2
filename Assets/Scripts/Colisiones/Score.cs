@@ -22,7 +22,7 @@ public class Score : MonoBehaviour
 
         }
 
-        if ( Puntaje == 147 )
+        if ( Puntaje == 146 )
 
         {
             puerta.SetActive(false);
