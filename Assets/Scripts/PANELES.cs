@@ -15,9 +15,11 @@ public class PANELES : MonoBehaviour
     {
 
         if (collision.gameObject.CompareTag("Enemigo"))
-        { 
-          
+        {
+
             panelPerder.SetActive(true);
+
+            Time.timeScale = 0;
 
         }
 
@@ -25,6 +27,9 @@ public class PANELES : MonoBehaviour
         {
 
             panelGanar.SetActive(true);
+
+
+            Time.timeScale = 0 ;
 
         }
 
