@@ -22,14 +22,14 @@ public class Score : MonoBehaviour
 
         }
 
-        if ( Puntaje == 50 )
+        if ( Puntaje == 147 )
 
         {
             puerta.SetActive(false);
 
         }
 
-        if (Puntaje == 100)
+        if (Puntaje == 290)
 
         {
             caliz.SetActive(true);

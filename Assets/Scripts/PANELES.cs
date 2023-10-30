@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEditor;
 using UnityEngine;
 
@@ -27,9 +28,21 @@ public class PANELES : MonoBehaviour
 
         }
 
+    
+
+    }
+    private void OnTriggerEnter(Collider other)
+
+    {
+
+        if (other.gameObject.CompareTag("Enemigo"))
+
+        {
+            panelPerder.SetActive(true);
+
+        }
 
 
     }
-
 
 }

@@ -1387,7 +1387,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 84647514}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.35204923, y: 1.3169576, z: 0.50202686}
@@ -1403,7 +1403,7 @@ Rigidbody:
   m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -3037,6 +3037,10 @@ PrefabInstance:
     - target: {fileID: 1300807223062071005, guid: d3b02cf859835dd4f9246b4ee405991a, type: 3}
       propertyPath: m_Name
       value: Hollow Night Terminado (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300807223062071005, guid: d3b02cf859835dd4f9246b4ee405991a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1300807223062071005, guid: d3b02cf859835dd4f9246b4ee405991a, type: 3}
       propertyPath: m_TagString
@@ -9454,6 +9458,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hollow Night Terminado (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1300807223062071005, guid: d3b02cf859835dd4f9246b4ee405991a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1821343122812099687, guid: d3b02cf859835dd4f9246b4ee405991a, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -12306,7 +12314,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.4776619, y: 0.0044827224, z: -0.0024354255, w: 0.87852895}
-  m_LocalPosition: {x: -1.1788577, y: 17.76603, z: -11.71276}
+  m_LocalPosition: {x: -1.1609956, y: 17.766031, z: -11.06276}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12653,7 +12661,7 @@ Rigidbody:
   m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -12712,7 +12720,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 987917653}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.24437018, y: 1.3169575, z: 0.3616875}
@@ -16406,7 +16414,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aef996b57c9d8794fb94a3dc65b86a95, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.067862
+      value: -1.05
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aef996b57c9d8794fb94a3dc65b86a95, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16414,7 +16422,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aef996b57c9d8794fb94a3dc65b86a95, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.84
+      value: -0.19
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aef996b57c9d8794fb94a3dc65b86a95, type: 3}
       propertyPath: m_LocalRotation.w
@@ -22368,7 +22376,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1800362870}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.35204923, y: 1.3169576, z: 0.50244725}
@@ -24455,7 +24463,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1967058235}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.35204923, y: 1.3169576, z: 0.50244725}
@@ -24471,7 +24479,7 @@ Rigidbody:
   m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -24776,7 +24784,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982992111}
   m_LocalRotation: {x: 0.4776619, y: 0.0044827224, z: -0.0024354255, w: 0.87852895}
-  m_LocalPosition: {x: -1.1788577, y: 17.76603, z: -11.71276}
+  m_LocalPosition: {x: -1.1609956, y: 17.766031, z: -11.06276}
   m_LocalScale: {x: 1, y: 1, z: 3.1235}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25726,6 +25734,10 @@ PrefabInstance:
     - target: {fileID: 1300807223062071005, guid: d3b02cf859835dd4f9246b4ee405991a, type: 3}
       propertyPath: m_Name
       value: Hollow Night Terminado (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300807223062071005, guid: d3b02cf859835dd4f9246b4ee405991a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1300807223062071005, guid: d3b02cf859835dd4f9246b4ee405991a, type: 3}
       propertyPath: m_TagString
@@ -30837,6 +30849,10 @@ PrefabInstance:
     - target: {fileID: 1300807223062071005, guid: d3b02cf859835dd4f9246b4ee405991a, type: 3}
       propertyPath: m_Name
       value: Hollow Night Terminado
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300807223062071005, guid: d3b02cf859835dd4f9246b4ee405991a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1300807223062071005, guid: d3b02cf859835dd4f9246b4ee405991a, type: 3}
       propertyPath: m_TagString
